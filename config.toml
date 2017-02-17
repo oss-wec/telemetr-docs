@@ -2,6 +2,7 @@ languageCode = "en-us"
 title = "telemetR docs"
 baseurl = "http://example.org/"
 theme = "hugo-theme-learn"
+publishDir = "docs"
 
 [params]
   description = "Documentation for telemetR DMS"

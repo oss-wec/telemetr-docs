@@ -1,0 +1,29 @@
+/*background behind logo*/
+#header {
+  background: #245b94;
+  border-color: #245b94;
+}
+
+#header-wrapper {
+  background: #245b94;
+  border-bottom: 4px solid #3681ce;
+  text-align: left;
+}
+
+/*background color of menu*/
+#sidebar {
+  background-color: #153556;
+}
+
+/*background color of the menu, when clicked*/
+#sidebar ul.topics > li.parent, #sidebar ul.topics > li.active {
+  background-color: #0b1c2d
+}
+
+a {
+  color: #3681ce;
+}
+
+a:hover {
+  color: #245b94;
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Telemetr-apis on telemetR docs</title>
+    <link>http://example.org/telemetr-api/index.xml</link>
+    <description>Recent content in Telemetr-apis on telemetR docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 Feb 2017 11:04:56 -0800</lastBuildDate>
+    <atom:link href="http://example.org/telemetr-api/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>telemetR-api</title>
+      <link>http://example.org/telemetr-api/</link>
+      <pubDate>Fri, 17 Feb 2017 11:04:56 -0800</pubDate>
+      
+      <guid>http://example.org/telemetr-api/</guid>
+      <description>
+
+&lt;h3 id=&#34;section-4&#34;&gt;Section 4&lt;/h3&gt;
+
+&lt;h1 id=&#34;telemetr-api&#34;&gt;telemetR-api&lt;/h1&gt;
+
+&lt;p&gt;telemetR-api is an API that serves as consistent database connection interface and abstraction layer. It is helpful when building applications because all of the database logic is hidden from the developer.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

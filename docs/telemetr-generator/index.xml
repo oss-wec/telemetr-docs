@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Telemetr-generators on telemetR docs</title>
+    <link>http://example.org/telemetr-generator/index.xml</link>
+    <description>Recent content in Telemetr-generators on telemetR docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 Feb 2017 11:04:49 -0800</lastBuildDate>
+    <atom:link href="http://example.org/telemetr-generator/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>telemetR-generator</title>
+      <link>http://example.org/telemetr-generator/</link>
+      <pubDate>Fri, 17 Feb 2017 11:04:49 -0800</pubDate>
+      
+      <guid>http://example.org/telemetr-generator/</guid>
+      <description>
+
+&lt;h3 id=&#34;section-3&#34;&gt;Section 3&lt;/h3&gt;
+
+&lt;h1 id=&#34;telemetr-generator&#34;&gt;telemetR-generator&lt;/h1&gt;
+
+&lt;p&gt;A command line interface for bootstrapping the creation of the telemetR database.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
