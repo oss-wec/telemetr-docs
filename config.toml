@@ -1,0 +1,9 @@
+languageCode = "en-us"
+title = "telemetR docs"
+baseurl = "http://example.org/"
+theme = "hugo-theme-learn"
+
+[params]
+  description = "Documentation for telemetR DMS"
+  author = "Mitchell Gritts"
+  menu = ["introduction", "telemetr-db", "telemetr-generator", "telemetr-api"]
