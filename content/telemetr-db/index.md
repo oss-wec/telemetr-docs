@@ -13,4 +13,4 @@ title = "telemetR-db"
 
 # telemetR-db
 
-telemetR-db is the name of the database that stores animal movement data.
+The database is the foundation of telemetR. In order for any other module to work the database must be running. This section will introduce you to the structure and functions of the database.
