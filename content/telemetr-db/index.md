@@ -14,3 +14,5 @@ title = "telemetR-db"
 # telemetR-db
 
 The database is the foundation of telemetR. In order for any other module to work the database must be running. This section will introduce you to the structure and functions of the database.
+
+The database can be bootstrapped with telemetr-generator. 

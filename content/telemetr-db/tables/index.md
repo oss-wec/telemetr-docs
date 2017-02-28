@@ -8,7 +8,7 @@ title = "Tables"
 
 +++
 
-First thing first, we need to create all the tables for the database. The code for the tables can be found (in this folder on GitHub)[https://github.com/wiesr/telemetr-db/tree/master/schema]. I like to create the tables in the order that the data flows in the database.
+First thing first, we need to create all the tables for the database. The code for the tables can be found [in this folder on GitHub](https://github.com/wiesr/telemetr-db/tree/master/schema). I like to create the tables in the order that the data flows in the database.
 
 ## Conventions
 
@@ -49,6 +49,10 @@ CREATE TABLE devices (
 | vhf_lot | `varchar` | Some VHF devices have a lot number |
 | created_at | `timestamp` | timestamp the row is created |
 | updated_at | `timestamp` | timestamp the row is updated |
+
+### Data
+
+coming soon ...
 
 ## Study Lookup
 
@@ -161,7 +165,7 @@ Each row in this table is created after an animal is entered in the `animals` ta
 
 ### Data
 
-coming soon ...
+Data isn't required for this table as it is created as new animals are added to the database.
 
 ## GPS
 
@@ -196,6 +200,31 @@ Once data is inserted a function is triggered (function name & link) to check th
 
 Coming soon ...
 
+## Validity Codes
+
+The `validity_codes` table is a lookup table for QA/QC validity codes used in the database.
+
+### Field Descriptions
+
+| Field | Type | Description |
+| :------------- | :------------- |
+| code  | `integer` | An integer, the validity code |
+| description | `varchar` | A description of the validity for a particular row |
+
+### Data
+
+``` sql
+INSERT INTO validity_codes (code, description)
+VALUES
+  (1, 'valid position'),
+  (2, 'position with no coordinates'),
+  (3, 'position with low reliability'),
+  (4, 'impossible spike'),
+  (5, 'position outside study area'),
+  (6, 'impossible biological location'),
+  (7, 'duplicate timestamp');
+```
+
 ## Relocations
 
 The `relocations` table holds parsed relocation data for each deployment. This data has been filtered to only include relocations that occur between an `deployments.inservice` and `deployments.outservice` date. The data in this table is also associated with an `animals.animal_id`. This data is "nearly analysis ready". This table doesn't include all of the fields from the `gps` table.
@@ -222,3 +251,7 @@ The `relocations` table holds parsed relocation data for each deployment. This d
 | temperature | `numeric` | Ambient temperature at the acquisition time. |
 | created_at | `timestamp` | timestamp the row is created |
 | updated_at | `timestamp` | timestamp the row is updated |
+
+### Data
+
+coming soon ...
